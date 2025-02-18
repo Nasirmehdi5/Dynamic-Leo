@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            border: 2px solid black;
+            /* width: 233vw; */
+            width: 88vw;
+            margin: auto;
+            background-color: aqua;
+        }
+
+        .container {
+            border: 2px solid black;
+            width: 88vw;
+            margin: 28px auto;
+            min-height: 20vh;                           
+            background-color: aqua;
+            /* font-size: 16px; */
+        }
+
+        .container>div {
+            font-size: 2rem;
+            border: 2px solid rgb(25, 145, 41);
+            width: 50%;
+        }
+
+        .container>div>div {
+            border: 2px solid rgb(231, 15, 51);
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is dynamic Leo class
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ratione aut magnam vero aspernatur quibusdam,
+            libero, omnis quasi soluta excepturi molestiae nihil sequi quod nam dolorem veniam corporis perferendis
+            laboriosam.
+
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quia eum necessitatibus quidem
+                asperiores.
+                Sit, porro quidem? Tempore debitis commodi, ullam, optio officia voluptatibus ut, aperiam aut illum
+                aspernatur placeat.
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <span class="box">
+        This is dynamic Leo class
+    </span> -->
+</body>
+
+</html>
+
+<!--  *{} universal selector   -->
+
+<!-- "Width (vw)" CSS mein ek unit hai jo viewport width ko representation karta hai. means, 1 vw ka matlab hai viewport ki total width ka 1%. -->
+
+<!-- em" ek relative unit hai jo kisi element ke font size ke hisaab se scale hoti hai, yani agar parent element ka font size 16 pixels hai, toh 1 em bhi 16 pixels hoga.  -->
+
+<!-- "rem" (root em) bhi ek relative unit hai, lekin yeh root element (usually html) ke font size ke hisaab se scale hoti hai, isliye yeh consistent hoti hai across different elements. -->
