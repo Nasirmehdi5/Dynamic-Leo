@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS card design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        .card {
+            background-color: white;
+            width: 198px;
+            height: 344px;
+            border-radius: 10px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 3px;
+            
+        }
+
+        .content p {
+            font-size: 15px;
+            color: rgb(163, 115, 115);
+        }
+
+        .capsule {
+            padding: 0 32px; 
+        }
+
+        .capsule span {
+            border: 2px solid rgb(199, 195, 195);
+            padding: 1px 5px;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+        .button{
+            text-align: center;   
+        }
+        .button button{
+            padding: 7px 9px;
+            border-radius: 9px;
+            background-color: hsl(216, 236, 253);
+            color: rgb(14,150,234);
+            font-size: 12px;
+            margin-top:10px;
+            border:none;
+            cursor: pointer;
+        } 
+        .button button:hover{
+            background-color:white;
+            color:brown;
+         }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="image">
+
+            <img width="188px" src="https://cdn.pixabay.com/photo/2020/08/11/03/08/boat-5479122_1280.jpg" alt="">
+        </div>
+        <div class="capsule">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Dynamic Leo</h2>
+            <p> In this general sense nature refers to the laws, elements and phenomena of the physical world, including
+                life. Although humans are part of nature</p>
+        </div>
+        <div class="button">
+            <button>Readmore.</button>
+        </div>
+    </div>
+</body>
+
+</html>
