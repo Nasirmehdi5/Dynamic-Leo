@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bold;
+            color: rgb(102, 102, 165);
+        }
+
+        ul li a {
+            color: rgb(192, 166, 100)
+            text-decoration: none;
+        }
+
+        nav {
+            background-color: pink;
+            height: 65%;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        main {
+            background-color: black;
+            color: white;
+            padding: 34px;
+        }
+
+        .container {
+            background-color: rgb(125, 165, 125);
+            margin: 12px 34px;
+            padding: 55px 23px;
+            text-align: center;
+        }
+
+        .box1 {
+            background-color: palevioletred;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+
+        .box2 {
+            background-color: blue;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 12px;
+        }
+
+        .text-box {
+            padding: 34px;
+            border: 2px solid white;
+            margin: 50px 34vw;
+            font-size: 30px;
+            border-radius: 13px;
+
+        }
+
+        .orange-box {
+            height: 32px;
+            width: 32px;
+            background: rgb(95, 85, 66);
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60px;
+        }
+
+        footer {
+            height: 100px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+
+        <div class="text-box">
+            <p> Sigma web developer course</p>
+        </div>
+
+        <div class="orange-box">
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
