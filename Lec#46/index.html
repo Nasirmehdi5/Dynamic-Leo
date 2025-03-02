@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .container{
+        background-color:rgb(24, 201, 201) ;
+        height: 80vh;
+        weight:30vw;    
+     }
+     .box{
+        width: 34px;
+        height: 45px;
+        /* background-color: chocolate; */
+        /* animation-name: Nasiranimation;
+        animation-duration: 1s;
+        animation-duration: reverse;
+        animation-play-state:paused;
+        animation-iteration-count: 2;
+        animation-timing-function: ease-out; */
+        animation: Nasiranimation 2s ease-in-out 3s infinite, 
+        Nasirmehdi 2s ease-in-out 3s 2;
+     } 
+     @keyframes Nasiranimation{
+        from{
+            background-color: blue;
+
+        }
+        to{
+            background-color: yellow;
+             transform: translateX(1000px);
+        }
+     }
+     @keyframes Nasirmehdi{
+       0%{
+        transform: rotate(110deg);
+       }
+       20%{
+        transform: rotate(210deg);
+       }
+       50%{
+        transform: rotate(310deg);
+       }
+     }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
