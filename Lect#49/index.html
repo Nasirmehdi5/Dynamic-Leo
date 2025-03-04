@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object Fit and object cover</title>
+    <style>
+        .container {
+            /* background-color: blue; */
+            /* height: 638px;
+            width: 675px; */
+            width: 444px;
+            height: 534px;
+            border: 2px solid black;
+            /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP-DihLwh53DmJpM7oqeHuq1DeG1YUaK8Hfg&s);*/
+            /* background-position: center center; */
+             background-image: url(https://png.pngtree.com/element_our/20190601/ourmid/pngtree-hand-drawn-cute-vegetarian-green-leaf-logo-image_1337225.jpg);
+            background-clip: border-box;
+        }
+        img{
+            width: 444px;
+            height: 534px;
+            /* object-fit: cover; */
+            object-fit: contain;
+            /* object-position: top bottom; */
+            object-position: 36px 59px; 
+
+            /* object-fit: fill; */
+            /* object-fit: scale-down; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <img src="https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" -->
+            <!-- alt=""> -->
+    </div>
+
+</body>
+
+</html>
